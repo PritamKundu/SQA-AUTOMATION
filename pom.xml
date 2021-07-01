@@ -3,4 +3,16 @@
   <groupId>Demo_Test</groupId>
   <artifactId>Demo_Test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>4.0.0-beta-4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>io.github.bonigarcia</groupId>
+  		<artifactId>webdrivermanager</artifactId>
+  		<version>4.4.3</version>
+  	</dependency>
+  </dependencies>
 </project>
