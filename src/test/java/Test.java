@@ -15,10 +15,18 @@ public class Test {
      
      //driver.close();
      
-     System.out.println("Title of the page :" +driver.getTitle());
-     System.out.println("Url of the page :"+driver.getCurrentUrl());
-     System.out.println("Source code of the page "+driver.getPageSource());
+//     System.out.println("Title of the page :" +driver.getTitle());
+//     System.out.println("Url of the page :"+driver.getCurrentUrl());
+//     System.out.println("Source code of the page "+driver.getPageSource());
+//     
+  // for windows maximize
+  		driver.manage().window().maximize();
+  		
+  		//How to Navigate
+		driver.navigate().to("http://sheradambd.com/");
      
+		//Navigate back nexchar
+				driver.navigate().back();
      
      
 	}
