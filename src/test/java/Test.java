@@ -68,10 +68,7 @@ public class Test {
    		Thread.sleep(3000);
    		//7. ClassName: Home page visit using classname locator
    		driver.findElement(By.className("navbar-brand-image")).click();
-     
-     
-     
-
+   
 	}
 
 }
