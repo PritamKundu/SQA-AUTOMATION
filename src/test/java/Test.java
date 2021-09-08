@@ -32,7 +32,7 @@ public class Test {
    //Input box testing --
 		
    		// 1. Id: edit input box using id locator
-   		driver.findElement(By.id("Email")).sendKeys("gift_shop");
+   		driver.findElement(By.id("Email")).sendKeys("gift_shop1");
    		
 //   		WebElement emailbox=driver.findElement(By.id("Email"));
 //   		emailbox.sendKeys("Abc");
