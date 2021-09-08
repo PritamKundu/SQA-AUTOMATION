@@ -14,7 +14,7 @@ public class Signin_page_test {
 		WebDriver pritam= new ChromeDriver();
 		
 		// Url visit
-		pritam.get("https://nexchar.com/signin");
+		pritam.get("https://nexchar.com/signout");
 		
 		// email box test method
 		Signin_page_web_locator.emailbox(pritam).sendKeys("hamidsaymon9@gmail.com");
