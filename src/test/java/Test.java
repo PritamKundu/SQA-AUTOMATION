@@ -10,7 +10,7 @@ public class Test {
 		// TODO Auto-generated method stub\
 	 WebDriverManager.firefoxdriver().setup();
      WebDriver driver = new FirefoxDriver();
-     driver.get("https://nexchar.com/signin");
+     driver.get("https://nexchar.com/signout");
      
 //     //Thread.sleep(5000);
 //     
